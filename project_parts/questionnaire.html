@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <a href="file:///D:/Files/HTML/WebLabsPetrakovskyi/index.html" tabindex="1"><h1 align="center">Повернутися на головну</h1></a>
+        <form action="/submit" method="post">
+            <div>
+                <fieldset>
+                    <legend>Основна інформація</legend>
+                    <label for="name">Ім'я:</label>
+                    <input id="name" name="name" placeholder="Введіть ім'я" type="text" required tabindex="2">
+                    <br>
+                    <br>
+                    <label for="password">Пароль:</label>
+                    <input id="password" name="password" placeholder="Введіть пароль" type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,}" tabindex="3">
+                    <br>
+                    <br>
+                    <label for="email">Електронна пошта:</label>
+                    <input id="email" name="email" placeholder="example@mail.com" type="email" required autocomplete="off" pattern="\w[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+.[a-zA-Z]" tabindex="4">
+                    <br>
+                    <br>
+                    <label for="tel">Номер телефону:</label>
+                    <input id="tel" name="tel" placeholder="+380XXXXXXXXX" type="tel" required pattern="^\d[0-9]" tabindex="5">
+                    <br>
+                    <br>
+                    <label for="date">Дата:</label>
+                    <input id="date" name="date" type="date" required tabindex="6">
+                    <br>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Radio buttons</legend>
+                    <h3>Вік:</h3>
+                    <input name="age" id="1-18" value="1-18" type="radio" tabindex="7">
+                    <label for="1-18">1-18 років</label>
+                    <br>
+                    <input name="age" id="18-60" value="18-60" type="radio" tabindex="8">
+                    <label for="18-60">18-60 років</label>
+                    <br>
+                    <input name="age" id="60+" value="60+" type="radio" tabindex="9">
+                    <label for="60+">60+ років</label>
+                    <br>
+
+                    <h3>Стать:</h3>
+                    <label for="male">Чоловік</label>
+                    <input name="sex" id="male" value="male" type="radio" tabindex="10">
+                    <br>
+
+                    <label for="female">Жінка</label>
+                    <input name="sex" id="female" value="female" type="radio" tabindex="11">
+                    <br>
+                    <label for="none">Не хочу вказувати</label>
+                    <input name="sex" id="none" value="none" type="radio" checked tabindex="12">
+                    <br>
+
+                    <h3>Хобі:</h3>
+                    <input id="reading" name="hobby" value="reading" type="checkbox" tabindex="13">
+                    <label for="reading">Читання</label>
+                    <br>
+                    <input id="sport" name="hobby" value="sport" type="checkbox" tabindex="14">
+                    <label for="sport">Спорт</label>
+                    <br>
+                    <input id="travelling" name="hobby" value="travelling" type="checkbox" tabindex="15">
+                    <label for="travelling">Подорожі</label>
+                    <br>
+                    <input id="gaming" name="hobby" value="gaming" type="checkbox" tabindex="16">
+                    <label for="gaming">Ґеймінґ</label>
+                    <br>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Випадні списки</legend>
+                    <h3>Область:</h3>
+                    <label for="district">Оберіть варіант:</label>
+                    <select id="district" name="district" required tabindex="17">
+                        <option value="" disabled selected>Виберіть...</option>
+                        <option value="option1">Київська</option>
+                        <option value="option2">Львівська</option>
+                        <option selected value="option3">Одеська</option>
+                        <option value="option4">Харківська</option>
+                        <option value="option5">Інше</option>
+                    </select>
+                    <br>
+
+                    <h3>Вмберіть щось:</h3>
+                    <label for="multi-select"></label>
+                    <select id="multi-select" name="multi-select" multiple tabindex="18">
+                        <option value="option1">65756</option>
+                        <option value="option2">38657</option>
+                        <option value="option3">69456</option>
+                        <option value="option4">39669</option>
+                        <option value="option5">24906</option>
+                    </select>
+
+                    <h3>Вмпадний список з чотирма групами пунктів по три значення в кожній групі:</h3>
+                    <label for="opti-select"></label>
+                    <select id="opti-select" name="opti-select" tabindex="19">
+                        <optgroup label="Група 1">
+                        <option value="option1">65756</option>
+                        <option value="option2">38657</option>
+                        <option value="option3">69456</option>
+                        </optgroup>
+                        <optgroup label="Група 2">
+                        <option value="option4">39669</option>
+                        <option value="option5">24906</option>
+                        <option value="option6">10234</option>
+                        </optgroup>
+                        <optgroup label="Група 3">
+                        <option value="option7">57684</option>
+                        <option value="option8">34567</option>
+                        <option value="option9">98765</option>
+                        </optgroup>
+                        <optgroup label="Група 4">
+                        <option value="option10">12345</option>
+                        <option value="option11">67890</option>
+                        <option value="option12">11223</option>
+                        </optgroup>
+                    </select>
+
+                    <h3>Випадний список із підказками:</h3>
+                    <label for="browser"></label>
+                    <input list="browsers" id="browser" name="browser" tabindex="20">
+                    
+                    <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                        <option value="Opera">
+                        <option value="Edge">
+                    </datalist>
+                    <br>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Кнопки</legend>
+                    <h3>Кнопки:</h3>
+                    <form>
+                        <input type="submit" value="Submit" tabindex="21">                 
+                        <input type="reset" value="Reset" tabindex="22"> <!--Не працює-->
+                        <input type="file" name="fileUpload" value="File" accept="audio/*" multiple tabindex="23">
+                        <br>
+                    </form>
+
+                    <h3>Методи GET та POST</h3>
+                    <form action="https://www.stalker2.com" method="get">
+                        <label for="idk">Напишить щось:</label>
+                        <input list="idk" id="idk" name="text" placeholder="Щось" tabindex="24">
+                        <button type="submit" tabindex="25">GET</button>
+                    </form>
+
+                    <form action="https://www.stalker2.com" method="post" enctype="multipart/form-data">
+                        <label for="idk2">Напишить щось:</label>
+                        <input list="idk2" id="idk2" name="text" placeholder="Щось" tabindex="26">
+                        <button type="submit" tabindex="27">POST</button>
+                    </form>
+                </fieldset>
+            </div>
+            
+        </form>
+    </body>
+</html>
