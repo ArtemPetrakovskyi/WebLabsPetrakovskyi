@@ -2,10 +2,26 @@
     font-family: 'Times New Roman', Times, serif
 }
 
-ul_head{
-    list-style-type: square;
+ul {
+    list-style: square;
 }
 
-ul_elements {
-    
+ul ul {
+    list-style: none;
+}
+
+#purble_color {
+    color:rgb(128, 0, 255);
+}
+
+.square {
+    list-style: square;
+}
+
+.pictograme {
+    list-style-image: url(https://raw.githubusercontent.com/Computer-Science-Department-ChNU/web-technologies/a4ac799023c09fbed0c5485a3d037535c4c3272b/html-css/labs/lab-4/materials/li.svg);
+}
+
+ol {
+    list-style-position: inside;
 }
