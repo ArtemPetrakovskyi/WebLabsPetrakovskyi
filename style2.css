@@ -1,51 +1,50 @@
 * {
-    font-family: Times,  serif;
+  font-family: Times, serif;
 }
 
 .main_title {
-    font-size: 30px;
-    font-weight: 700; /*жирний*/
-    text-align: center;
-    color: rgb(255, 0, 0);
-
+  font-size: 30px;
+  font-weight: 700; /*жирний*/
+  text-align: center;
+  color: rgb(255, 0, 0);
 }
 
 #second_title {
-    font-size: 25px;
-    font-weight: 600; /*напівжирний*/
-    font-style: italic;
-    text-align: center;
+  font-size: 25px;
+  font-weight: 600; /*напівжирний*/
+  font-style: italic;
+  text-align: center;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #sub_2 {
-    font-size: 13px;
-    vertical-align: sub;
+  font-size: 13px;
+  vertical-align: sub;
 }
 
 #sup_R {
-    font-size: 15px;
-    vertical-align: super;
+  font-size: 15px;
+  vertical-align: super;
 }
 
 .line-through {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .background {
-    background-color: rgba(255, 255, 0, 0.7);
+  background-color: rgba(255, 255, 0, 0.7);
 }
 
 .italic_mono {
-    font-size: 15px;
-    text-align: center;
-    font-style: italic;
-    font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
 }
 
 .bold {
-    font-weight: 900;
+  font-weight: 900;
 }

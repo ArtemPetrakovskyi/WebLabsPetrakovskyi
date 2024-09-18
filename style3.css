@@ -1,27 +1,31 @@
 * {
-    font-family: 'Times New Roman', Times, serif
+  font-family: "Times New Roman", Times, serif;
 }
 
 ul {
-    list-style: square;
+  list-style: square;
 }
 
 ul ul {
-    list-style: none;
+  list-style: none;
 }
 
-#purble_color {
-    color:rgb(128, 0, 255);
+.green_color {
+  color: rgb(0, 255, 0);
 }
 
 .square {
-    list-style: square;
+  list-style: square;
 }
 
 .pictograme {
-    list-style-image: url(https://raw.githubusercontent.com/Computer-Science-Department-ChNU/web-technologies/a4ac799023c09fbed0c5485a3d037535c4c3272b/html-css/labs/lab-4/materials/li.svg);
+  list-style-image: url(https://raw.githubusercontent.com/Computer-Science-Department-ChNU/web-technologies/a4ac799023c09fbed0c5485a3d037535c4c3272b/html-css/labs/lab-4/materials/li.svg);
+}
+
+.no_underscore_link a {
+  text-decoration: none;
 }
 
 ol {
-    list-style-position: inside;
+  list-style-position: inside;
 }

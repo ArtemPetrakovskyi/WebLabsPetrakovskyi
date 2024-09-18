@@ -7,39 +7,39 @@
 }
 
 p {
-    color: rgb(0, 255, 0);
-    text-align: center;
+  color: rgb(0, 255, 0);
+  text-align: center;
 }
 
 div {
-    text-align: justify;
+  text-align: justify;
 }
 
 .paragraph_1 {
-    color: rgb(255, 0, 0);
-    white-space: nowrap;
+  color: rgb(255, 0, 0);
+  white-space: nowrap;
 }
 
 #paragraph_2 {
-    font-style: italic;
-    font-weight: 700; /*жирний*/
+  font-style: italic;
+  font-weight: 700; /*жирний*/
 }
 
 .paragraph_3 {
-    color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 }
 
 .paragraph_2_and_div_2 {
-    text-shadow: 5px -5px 3px rgb(0, 0, 0);
+  text-shadow: 5px -5px 3px rgb(0, 0, 0);
 }
 
 .div_1 {
-    text-decoration: line-through;
-    text-transform: uppercase;
-    text-indent: 50px;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-indent: 50px;
 }
 
 .div_2 {
-    letter-spacing: 30px;
-    word-spacing: 50px;
+  letter-spacing: 30px;
+  word-spacing: 50px;
 }
