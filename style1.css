@@ -1,0 +1,109 @@
+* {
+  font-family:Arial, sans-serif;
+}
+
+
+
+div {
+  background-color: rgb(255, 165, 0);
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  color: rgb(255, 255, 255);
+  
+  
+}
+
+h1 {
+  font-size: 25px; /*Розмір тексту?*/
+  font-weight: 900;
+  margin: 0px 0px 10px 0px;
+  
+}
+
+ul {
+  list-style-position: inside;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 15 px 15 px;
+  margin-bottom: 10px;
+
+}
+
+.ul_first_level {
+  background-color: rgb(103, 158, 128);
+  padding-right: 20px;
+  padding-left: 50px;
+  margin: 0px 0px 0px 0px;
+}
+
+.ul_second_level {
+  font-size: 18px; /*Розмір тексту?*/
+  font-style: italic;
+  background-color: rgb(153, 180, 102);
+  margin-bottom: 10px;
+  padding-left: 40px;
+  
+}
+
+span {
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  
+}
+
+.ul_first_level span {
+  font-size: 20px; /*Розмір тексту?*/
+  font-weight: 700;
+  background-color: rgb(199, 124, 106);
+  list-style-image: url('img.rule.svg');
+}
+
+.ul_second_level span {
+  background-color: rgb(218, 106, 32);
+  
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+
+ul li {
+  margin-bottom: 10px;
+
+}
+
+.rule_img {
+list-style-image: url('img\rule.svg');
+}
+
+.museum_img {
+  background-image: url();
+}
+
+.local_bar_img {
+  background-image: url();
+}
+
+.hotel_img {
+  background-image: url();
+}
+
+.festival_img {
+  background-image: url();
+}
+
+.casino_img {
+  background-image: url();
+}
+
+.car_rental_img {
+  background-image: url();
+}
+
+.airplane_ticket_img {
+  background-image: url();
+}
+
+.ad_units_img {
+  background-image: url();
+}
+
